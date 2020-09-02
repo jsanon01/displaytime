@@ -1,0 +1,55 @@
+body {
+    background-color: #F5F5F5;
+    max-width: 90wh;
+    border: 2px solid red;
+}
+
+img {
+    width: 400px;
+    margin: 10px;
+}
+
+span {
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    border: 1px solid green;
+}
+
+.title {
+    font-family: fantasy;
+    border: 1px solid red;
+    margin-right: 80%;
+}
+.clock {
+    display: flex;
+    flex: 1 1 50%;
+    border: 1px solid blue;
+    max-width: 100%;
+}
+
+#clockDisplay {
+    align-self: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+footer {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    padding: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color:#FFFFFF; 
+    background: black;
+    font-size:1.5em;
+}
